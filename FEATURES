@@ -1,0 +1,123 @@
+Key Features
+
+1. Text Analysis Metrics
+
+The system provides detailed metrics to help users understand the characteristics of their essays, including:
+
+Word Count: Total number of words in the essay.
+
+Character Count: Total number of characters.
+
+Average Word Length: The average number of characters per word.
+
+Word Length Variance: A measure of variation in word lengths.
+
+Average Sentence Length: The average number of words per sentence.
+
+Sentence Length Variance: A measure of variation in sentence lengths.
+
+Clause Count: Total number of clauses.
+
+Grammar Errors: Count of identified grammatical issues.
+
+Vocabulary Size: Number of unique words used in the essay.
+
+2. Keyword Highlighting
+
+Users can view their essay with specific keywords highlighted, making it easier to identify important terms or repetitive usage. This feature is helpful for assessing the relevance of the essay to a particular topic or prompt.
+
+3. Corpus Matching
+
+The system compares the submitted essay with a predefined corpus of reference texts to evaluate relevance and similarity. Users receive:
+
+A list of matched corpus entries.
+
+Scores indicating the degree of similarity for each match.
+
+4. Feedback and Overall Scoring
+
+The system provides an overall score and constructive feedback based on the analysis. Feedback includes suggestions for improving grammar, structure, and vocabulary usage, helping users enhance their writing skills.
+
+5. Interactive Visualization
+
+Highlighted Text: Displayed with keywords and phrases highlighted for better clarity.
+
+Progress Bar: Represents the overall score visually, providing an intuitive understanding of performance.
+
+6. User-Friendly Navigation
+
+The system includes intuitive navigation options such as:
+
+A button to return to the dashboard.
+
+An option to re-evaluate the essay.
+
+Technical Stack
+
+The system is built using modern web technologies and libraries:
+
+Frontend: HTML, CSS, Bootstrap for responsive design.
+
+Backend: PHP for server-side processing and dynamic content rendering.
+
+Text Processing: Utilizes regular expressions and custom logic for text analysis.
+
+Data Storage: MySQL or similar relational databases for corpus storage and user data.
+
+Installation and Setup
+
+To run this system locally:
+
+Clone the repository:
+
+git clone https://github.com/yourusername/essay-evaluation-system.git
+
+Navigate to the project directory:
+
+cd essay-evaluation-system
+
+Set up the database:
+
+Import the provided SQL file (database.sql) into your MySQL server.
+
+Update the database configuration in the config.php file.
+
+Start a local development server:
+
+php -S localhost:8000
+
+Open the application in your browser:
+
+http://localhost:8000
+
+Contribution Guidelines
+
+Contributions to the Essay Evaluation System are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature or bugfix:
+
+git checkout -b feature-name
+
+Commit your changes:
+
+git commit -m "Description of changes"
+
+Push your branch:
+
+git push origin feature-name
+
+Submit a pull request for review.
+
+Future Improvements
+
+Some planned features for future releases include:
+
+Integration with machine learning models for advanced grammar and style analysis.
+
+Support for multiple languages.
+
+Exportable reports in PDF format.
+
+Customizable feedback criteria for educators.
